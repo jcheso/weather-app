@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather app that uses an API to show the current weather and forecast",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheso7/weather-app.git"
+  },
+  "author": "Jarryd Cheso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cheso7/weather-app/issues"
+  },
+  "homepage": "https://github.com/Cheso7/weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.1.1",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
