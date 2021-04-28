@@ -1,0 +1,83 @@
+
+.primary{
+    background-color: #457B9D;
+}
+
+.secondary{
+    background-color: #A8DADC;
+}
+
+.tertiary{
+    background-color: #F1FAEE;
+}
+
+.accent1{
+    background-color: #5E5E5E;
+}
+
+.accent2{
+    background-color: #E63946;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: space-around;
+}
+
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: rgb(250, 250, 250);
+  height: 5vh;
+  vertical-align: middle;
+}
+
+.container{
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+    height: 25vh;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

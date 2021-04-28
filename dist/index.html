@@ -1,23 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Weather App</title>
-  <meta name="description" content="An app to find the weather in your area">
-  <meta name="author" content="Jarryd Cheso">
+    <title>Weather App</title>
+    <meta
+      name="description"
+      content="An app to find the weather in your area"
+    />
+    <meta name="author" content="Jarryd Cheso" />
+  </head>
 
-</head>
+  <body>
+    <header class="primary">
+      <div><h2>OpenWeather</h2></div>
+      <div>
+        <form id="searchForm">
+          <input type="text" id="location" name="location" value="Perth" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </header>
 
+    <section class="tertiary">
+      <div class="container secondary">
+        <h1>Current weather + forecast</h1>
+      </div>
+      <div class="container accent1">
+        <h1>in depth weather details</h1>
+      </div>
+      <div class="container secondary">
+        <img />
 
-<body>
-  <form id="searchForm">
-    <input type="text" id="gifSearch" name="gifSearch" value="Search" />
-    <input type="submit" value="Submit" />
-  </form>
-  <img>
-  
-    <script src="./src/index.js"></script>
+        <h1>hourly forecast</h1>
+      </div>
+
+    </section>
+
+    <footer class="accent2">
+      <a href="https://github.com/Cheso7">Made by Cheso7</a>
+    </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
