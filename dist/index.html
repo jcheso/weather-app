@@ -17,29 +17,20 @@
       <div><h2>OpenWeather</h2></div>
       <div>
         <form id="searchForm">
-          <input type="text" id="location" name="location" value="Perth" />
-          <input type="submit" value="Submit" />
+          <input type="text" class="search" id="location" name="location" />
+          <input type="submit" class="btn" value="Submit" />
         </form>
       </div>
     </header>
 
-    <section class="tertiary">
-      <div class="container secondary">
-        <h1>Current weather + forecast</h1>
-      </div>
-      <div class="container accent1">
-        <h1>in depth weather details</h1>
-      </div>
-      <div class="container secondary">
-        <img />
-
-        <h1>hourly forecast</h1>
-      </div>
-
+    <section id="content">
+      <div id="location-container" class="location-container"></div>
+      <div id="weather-container" class="weather-container"></div>
+      <div id="forecast-container" class="forecast-container"></div>
     </section>
-
-    <footer class="accent2">
-      <a href="https://github.com/Cheso7">Made by Cheso7</a>
+    <footer>
+      <a href="https://github.com/Cheso7">Made by Cheso7 </a>
+      <a href="https://github.com/Cheso7"><img src="GitHub-Mark-32px.png" /></a>
     </footer>
 
     <script src="main.js"></script>
