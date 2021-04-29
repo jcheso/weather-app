@@ -3,7 +3,7 @@ import "./styles.css";
 const weatherController = (() => {
   let getGeoLocation = async (location) => {
     const geoObj = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=d9e5b08d8639ae39ae8a23305b524d6b`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=d9e5b08d8639ae39ae8a23305b524d6b`
     );
     const geoData = await geoObj.json();
     return geoData[0];
